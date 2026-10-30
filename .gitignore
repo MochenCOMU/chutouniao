@@ -1,0 +1,13 @@
+# 编译产物
+SongBang.exe
+*.pdb
+*.exe
+dist/
+
+# 开发临时文件
+_test/*.exe
+_test/pv*/
+*.user
+*.suo
+.vs/
+.idea/
