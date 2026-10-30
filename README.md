@@ -201,6 +201,13 @@ $src = ".\src"
 </p>
 
 <p align="center">
+  <a href="https://b23.tv/DVQxP0R"><img src="https://img.shields.io/badge/Bilibili-%E5%93%94%E5%93%A9%E5%93%94%E5%93%A9-00A1D6?logo=bilibili&amp;logoColor=white" alt="哔哩哔哩"></a>
+  <a href="https://xhslink.cn/o/3tODLSzzsSi"><img src="https://img.shields.io/badge/%E5%B0%8F%E7%BA%A2%E4%B9%A6-RED-FF2442" alt="小红书"></a>
+  <a href="https://v.douyin.com/5vdGkeVvX5A/"><img src="https://img.shields.io/badge/%E6%8A%96%E9%9F%B3-Douyin-000000?logo=tiktok&amp;logoColor=white" alt="抖音"></a>
+  <a href="https://www.twitter.com/mochen_COMU"><img src="https://img.shields.io/badge/X-@mochen__COMU-000000?logo=x&amp;logoColor=white" alt="X"></a>
+</p>
+
+<p align="center">
   <img src="docs/author-card.jpg" width="430" alt="名片">
   <img src="docs/author.jpg" width="330" alt="作者">
 </p>
