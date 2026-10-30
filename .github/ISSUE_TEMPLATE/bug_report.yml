@@ -1,0 +1,58 @@
+name: 报告问题
+description: 某个功能没按预期工作
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        谢谢反馈。写得越具体，修得越快。
+
+  - type: input
+    id: version
+    attributes:
+      label: 出头鸟版本
+      description: 设置窗口标题栏上就有
+      placeholder: 4.1.0
+    validations:
+      required: true
+
+  - type: input
+    id: target
+    attributes:
+      label: 出问题的程序
+      placeholder: Photoshop 2023 / 资源管理器 / Maya
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: 现象
+      description: 你按了什么、期望什么、实际发生了什么
+      placeholder: |
+        按住 Ctrl 在画布上拖拽
+        期望：图层不动
+        实际：图层还是被拖跑了
+    validations:
+      required: true
+
+  - type: textarea
+    id: rules
+    attributes:
+      label: 你的规则配置
+      description: 设置界面「程序与规则」那一页的内容，或者配置文件里的 [Profile] 段
+
+  - type: input
+    id: windows
+    attributes:
+      label: Windows 版本
+      placeholder: Windows 11 23H2
+
+  - type: checkboxes
+    id: admin
+    attributes:
+      label: 补充信息
+      options:
+        - label: 目标程序是以管理员身份运行的（这种情况下本工具会失效，属于已知限制）
+        - label: 我已经看过 README 的「已知限制」

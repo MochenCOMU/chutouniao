@@ -1,0 +1,43 @@
+name: 新需求 / 新软件
+description: 想让它管住别的软件，或者想要一个新能力
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        这类需求最常见的来源是：某个软件的某个快捷键又蠢又改不掉。说说是什么软件、什么组合。
+
+  - type: input
+    id: target
+    attributes:
+      label: 涉及的软件
+      placeholder: 例如 ZBrush / 达芬奇 / 某个国产软件
+    validations:
+      required: true
+
+  - type: textarea
+    id: pain
+    attributes:
+      label: 它现在怎么惹你了
+      description: 哪个组合、按下去会发生什么、为什么想去掉或改掉
+      placeholder: |
+        Alt+左键拖拽是它的默认旋转，改不了。我只想拖选物件，结果每次都在转视角。
+    validations:
+      required: true
+
+  - type: textarea
+    id: expect
+    attributes:
+      label: 你希望它变成什么样
+      placeholder: |
+        拦掉，或者改成 Ctrl+左键。
+        如果做不到，说说哪里不行也行。
+
+  - type: checkboxes
+    id: tried
+    attributes:
+      label: 你试过
+      options:
+        - label: 在设置里加了这条规则，但没用
+        - label: 还没试过，先来问一下

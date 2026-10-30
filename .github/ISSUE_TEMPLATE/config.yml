@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: 先看看使用说明
+    url: https://github.com/MochenCOMU/chutouniao#快速开始
+    about: 安装、配置、快捷键转发、已知限制都写在 README 里
+  - name: 下载安装包
+    url: https://github.com/MochenCOMU/chutouniao/releases
+    about: 去 Releases 页面下载 Chutouniao-Setup-x.y.z.exe

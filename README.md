@@ -14,6 +14,8 @@
 
 ![程序与规则](docs/tab-programs.png)
 
+**直达**：[安装](#安装)　·　[快速开始](#快速开始)　·　[快捷键转发](#快捷键转发禁用不等于功能没了)　·　[已知限制](#已知限制)　·　[从源码构建](#从源码构建)　·　[关于作者](#关于作者)
+
 ---
 
 ## 为什么叫「出头鸟」
@@ -279,3 +281,12 @@ MIT licensed. Made by 墨琛COMU.
 > 「世界若无出头鸟，人人皆为待宰鸡」
 > If nobody dares to be the bird that sticks its neck out, everyone ends up as the chicken
 > waiting to be slaughtered.
+
+---
+
+<p align="center">
+  <sub>
+    如果它帮你把一个改不掉的快捷键改掉了，点个 ⭐ 吧 ——<br>
+    出头鸟多了，「习惯就好」就少了。
+  </sub>
+</p>
